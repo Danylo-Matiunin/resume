@@ -7023,10 +7023,6 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex {
-  display: flex !important;
-}
-
 .d-inline-flex {
   display: inline-flex !important;
 }
@@ -11746,7 +11742,12 @@ html {
 .profile-img {
   border-radius: 50%; 
   border: 2px solid #000;
-  width: 500px; 
-  height: 700px; 
+  width: 100%; 
+  height: auto; 
   background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+}
+
+
+.bi-code-slash {
+  min-width: 36px;
 }
